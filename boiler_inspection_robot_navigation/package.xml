@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>boiler_inspection_robot_navigation</name>
+  <version>1.0.0</version>
+  <description>The boiler_inspection_robot_navigation package</description>
+
+  <maintainer email="pawel.irzyk6@gmail.com">Paweł Irzyk</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+
+</package>
