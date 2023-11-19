@@ -1,0 +1,4 @@
+
+<launch>
+    <node name="simulated_odometry" pkg="boiler_inspection_robot_navigation" type="simulated_odometry.py" output="screen"/>
+</launch>
