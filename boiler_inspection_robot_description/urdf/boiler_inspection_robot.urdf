@@ -46,7 +46,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/podwozie.dae" />
+                    filename="package://boiler_inspection_robot_description/models/meshes/chassis.dae" />
             </geometry>
             <material name="grey" />
         </visual>
@@ -68,7 +68,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/nadwozie.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/body.dae"
                     scale="0.001 0.001 0.001" />
             </geometry>
             <material name="grey" />
@@ -89,7 +89,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/wewn.dae" />
+                    filename="package://boiler_inspection_robot_description/models/meshes/interior_compartment.dae" />
             </geometry>
         </visual>
     </link>
@@ -99,7 +99,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/naped.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/motor.dae"
                     scale="10 10 10" />
             </geometry>
         </visual>
@@ -110,7 +110,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/naped.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/motor.dae"
                     scale="10 10 10" />
             </geometry>
         </visual>
@@ -121,7 +121,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/naped.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/motor.dae"
                     scale="10 10 10" />
             </geometry>
         </visual>
@@ -132,7 +132,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/naped.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/motor.dae"
                     scale="10 10 10" />
             </geometry>
         </visual>
@@ -154,7 +154,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/kolo.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/wheel.dae"
                     scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black" />
@@ -177,7 +177,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/kolo.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/wheel.dae"
                     scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black" />
@@ -200,7 +200,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/kolo.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/wheel.dae"
                     scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black" />
@@ -223,7 +223,7 @@
             <origin rpy="0 0 0" xyz="0 0 0" />
             <geometry>
                 <mesh
-                    filename="package://boiler_inspection_robot_description/models/meshes/kolo.dae"
+                    filename="package://boiler_inspection_robot_description/models/meshes/wheel.dae"
                     scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black" />
