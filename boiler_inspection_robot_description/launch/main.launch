@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This launch file has to proceed following tasks:
+    - open gazebo with specified world
+    - spaw boiler_inspection_robot in gazebo
+    - enable controllers of boiler_inspection_robot
+    - open rviz visualization
+    - launch velocity converter-->
+
+<launch>
+    <!-- Open Gazebo with designed world-->
+    <!-- <include file="$(find boiler_inspection_robot_description)/launch/gazebo.launch"/> -->
+    <!-- Spawn robot -->
+    <include
+        file="$(find boiler_inspection_robot_description)/launch/spawn_boiler_inspection_robot.launch" />
+    <!-- Enable controllers -->
+    <include
+        file="$(find boiler_inspection_robot_description)/launch/boiler_inspection_robot_control_wheels.launch" />
+    <!-- Visualize in Rviz   -->
+    <include file="$(find boiler_inspection_robot_description)/launch/visualize_in_rviz.launch" />
+
+</launch>
