@@ -1,0 +1,8 @@
+<launch>
+    <group ns="boiler_inspection_robot_controller">
+        <rosparam file="$(find boiler_inspection_robot_controller)/config/boiler_inspection_robot_controller_node.yaml" />
+    </group>
+
+    <node pkg="boiler_inspection_robot_controller" type="boiler_inspection_robot_controller_node.py" name="boiler_inspection_robot_controller" output="screen"/>
+
+</launch>
