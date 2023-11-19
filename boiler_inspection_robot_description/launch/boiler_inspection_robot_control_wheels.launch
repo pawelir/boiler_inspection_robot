@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-<!--Loading the yaml file and launching the controllers 
+  <!--Loading the yaml file and launching the
+  controllers 
 with the robot state publisher for the TF publication-->
 
   <!-- Load joint controller configurations from YAML file to parameter server -->
-  <rosparam file="$(find boiler_inspection_robot_description)/config/boiler_inspection_robot_control_wheels.yaml" command="load"/>
+  <rosparam
+    file="$(find boiler_inspection_robot_description)/config/boiler_inspection_robot_control_wheels.yaml"
+    command="load" />
 
   <!-- load the controllers -->
-  <!--Here you state that all controllers defined in the yaml are active.-->
+  <!--Here
+  you state that all controllers defined in the yaml are active.-->
 
-  <node pkg="controller_manager" name="controller_spawner" 
-        type="spawner" respawn="false" output="screen" ns="boiler_inspection_robot"
-        args="left_front_wheel_velocity_controller
+  <node pkg="controller_manager" name="controller_spawner"
+    type="spawner" respawn="false" output="screen" ns="boiler_inspection_robot"
+    args="left_front_wheel_velocity_controller
               left_rear_wheel_velocity_controller
               right_front_wheel_velocity_controller
               right_rear_wheel_velocity_controller
-              joint_state_controller"/>
+              joint_state_controller" />
 
   <!-- convert joint states to TF transforms for rviz, etc -->
-  <!--node pkg="robot_state_publisher" name="robot_state_publisher" 
+  <!--node
+  pkg="robot_state_publisher" name="robot_state_publisher" 
   type="robot_state_publisher" respawn="false" output="screen"/-->
-    <!--remap from="/joint_states" to="/boiler_inspection_robot/joint_states" /-->
+  <!--remap
+  from="/joint_states" to="/boiler_inspection_robot/joint_states" /-->
 
 </launch>
