@@ -13,3 +13,7 @@ Robot simulation based on the Gazebo simulator.
 ## boiler_inspection_robot_navigation
 
 Navigation stack suited to boiler inspection robot.
+
+## boiler_inspection_robot_controller
+
+Simple controller of the boiler inspection robot.
